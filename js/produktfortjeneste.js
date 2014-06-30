@@ -23,6 +23,7 @@ function addInputField() {
     field.addEventListener("click", function() {
         field.select()
     });
+    //field.pattern = "[0-9]+([,\.][0-9]+)?";
     field.addEventListener("keyup", update);
     container.appendChild(field);
     container.appendChild(document.createElement("br"));
