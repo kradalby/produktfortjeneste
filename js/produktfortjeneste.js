@@ -94,4 +94,7 @@ window.onload = function () {
     addInputField();
     addInputField();
 
+    firstInputField = document.querySelector("#input").children[0];
+    firstInputField.focus();
+    firstInputField.select();
 }
